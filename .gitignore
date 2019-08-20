@@ -1,4 +1,21 @@
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
 target/
-/goose.iml
-/goose.ipr
-/goose.iws
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+*.iml
+.idea/*
+.idea
+.DS_Store

@@ -2,8 +2,7 @@ package com.gravity.goose
 
 import org.junit.Test
 import org.junit.Assert._
-import scala.actors.Future
-import scala.actors.Futures._
+import scala.concurrent.Future
 
 /**
  * Created by Jim Plush
